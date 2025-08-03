@@ -2,7 +2,7 @@ def skyline(**kwargs):
     # returns the tallest building key and value
     #tallest_building = max(kwargs, key=kwargs.get)
     #return tallest_building, kwargs[tallest_building]
-    tellest_building = ()
+    tellest_building = {}
     for building, height in kwargs.items():
         if not tellest_building or height > tellest_building[1]:
             tellest_building = (building, height)
