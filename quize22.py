@@ -1,4 +1,4 @@
-import library
+from mylibrary import library
 
 
 def main():
